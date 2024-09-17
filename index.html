@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>a chave</title>
+ </head>
+ <body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+             <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desses, dentro de um livro da biblioteca da escola, eu descobri uma carta antiga sobre um objeto misterioso, capaz de criar portais para outras realidades.</p>
+             <button class="btn-proximo" data-proximo="1">Seattle</button>
+             <button class="btn-proximo" data-proximo="2">Dallas</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada em seattle, visitando o seattle art museum ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no museu</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+       </div>
+       <div class="passo" id="passo-2">
+           <p>No texas, você visita a histórica cidade de Dallas. Na carta, uma das pistas indica que para localizar o tal objeto você deve procurar  próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+           <button class="btn-proximo" data-proximo="5">Investigar o dealey plaza</button>
+           <button class="btn-proximo" data-proximo="6">Explorar o zoológico de Dallas</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Em uma obra no museu, você encontra uma antiga inscrição apontando que a próxima pista está localizada no Colorado</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Colorado </button>
+         </div>
+         <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.webp" alt="imagem voltando para casa e desistindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria encontrado</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Na praça, você descobre um mapa antigo escondido atrás de um poste, apontando que a próxima pista está no Colorado</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Colorado </button>
+         </div>
+         <div class="passo" id="passo-6">
+            <p>Explorando o zoológico, você encontra uma caverna escondida em uma das jaulas onde ficavam animais em recuperação, mas ela leva a um beco sem saída</p>
+            <button class="btn-proximo" data-proximo="8">voltar e explorar a praça </button>
+         </div>
+         <div class="passo" id="passo-7">
+            <p>No Colorado, a busca pelo objeto se intensifica. Você se depara com um templo que contem dois caminhos.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo caminho à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pelo caminho à direita</button>
+         </div>
+         <div class="passo" id="passo-8">
+            <p>De volta a praça, você finalmente encontra o mapa antigo. Agora, para o Colorado!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Colorado </button>
+         </div>
+         <div class="passo" id="passo-9">
+            <p>O caminho à esquerda leva você a uma sala esondida com inscriçâo antigas que revelam o baú onde está o objeto.</p>
+            <button class="btn-proximo" data-proximo="11">Abrir o baú e inspecionar o objeto </button>
+         </div>
+         <div class="passo" id="passo-10">
+            <p>O caminho à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais do objeto aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho </button>
+         </div>
+         <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando um objeto estranho em Dallas">
+            <p>Observando o objeto você percebe o quão poderoso e valioso ele é, se dedicando a estudar cada vez mais sobre ele.</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho à esquerda, você finalmente encontra a sala escondida e as inscrições que levam ao objeto misterioso</p>
+            <button class="btn-proximo" data-proximo="11">Abrir o baú e inspecionar o objeto </button>
+         </div>
+    </main>
+      <script src="script.js"></script>
+ </body>
+ </html>
